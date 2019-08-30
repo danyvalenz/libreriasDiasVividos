@@ -1,1 +1,23 @@
 Comandos Git más importantes 
+
+git init // inicializa un proyecto Git esto crea el archivo .git
+
+git add * // prepara todos los archivos modificados en staging area
+
+
+git status // muestra si hay archivos modificados
+
+git commit // confirma los cambios que se harán para esto abre un archivo vim el cual se agrega
+el commit con "i" puedes editar con  "ESC" finalizas la escritora y con ":wq" guardas y sales
+
+git remote add origin RUTANUBE     // agrega un remote
+
+git fetch -a // traeme todas las ramas que esta en REMOTO
+
+git fetch -a -p //borrame todas las ramas locales que no esten en REMOTO
+
+
+git push --delete origin RAMAABORRAR  // asi se borra una rama en particular
+
+
+
